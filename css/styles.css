@@ -1,0 +1,590 @@
+/*!
+ * Guna Official Website
+ * Website: www.gunatradinghouse.com
+ * Designed for Guna Trading House PLC
+ * Designed by : Merhawi Fissehaye
+ * Date : December 12, 2015
+ * Intended Media : Web browser
+ */
+
+/**********************************
+        COLORS
+**********************************/
+.black-text,
+.navbar-header .navbar-brand,
+.news-footer a,
+#BLACK-TEXT {
+    color: #323232;
+}
+
+.grey-text,
+.navbar-default .navbar-nav > li > a,
+.block-title,
+#GREY-TEXT {
+    color: #666;
+}
+
+.light-grey-text,
+.block-content,
+#LIGHT-GREY-TEXT { color: #505050; }
+
+.white-text,
+#topper a,
+#slider .slide-text,
+.service-block:hover *,
+.news-month,
+#WHITE-TEXT { color: #fff; }
+
+.green-text,
+nav.navbar .navbar-nav li a:hover,
+nav.navbar .navbar-nav li a:focus,
+#GREEN-TEXT {
+    color: #009688;
+}
+
+/**********************************
+        BACKGROUNDS
+**********************************/
+.green,
+#topper,
+#topper a:hover,
+#topper a:focus,
+#topper a:active,
+#topper a:visited,
+.service-block:hover,
+.btn-success, .btn-success:hover, .btn-success:focus, .btn-success:active,
+#GREEN { background: #009688; }
+
+.dark-green,
+.block-title:after,
+#DARK-GREEN { background: #00796b; }
+
+.light-grey,
+nav.navbar,
+.news-date,
+#footer,
+#LIGHT-GREY { background: #efefef; }
+
+.grey,
+#GREY { background: #eaeaea; }
+
+.dark-grey,
+body,
+#footer .form-control,
+#DARK-GREY { background: #e1e1e1; }
+
+.darker-grey,
+.news-image,
+#footer .form-control:focus,
+#DARKER-GREY { background: #dddddd; }
+
+.white-bg-box,
+#WHITE-BG-BOX { background: #fff; }
+
+.black-bg-box,
+.news-month,
+#BLACK-BG-BOX { background: #252525; }
+
+.wide-image-background,
+#slider,
+#WIDE-IMAGE-BACKGROUND {
+  background: url('../img/stock-exchange.jpg');
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.transparent-black-background,
+#slider .slide-text,
+#TRANSPARENT-BLACK-BACKGROUND { background: rgba(0,0,0,0.6); }
+
+/**********************************
+        FONT SIZES
+**********************************/
+.menu-item-size,
+nav.navbar a,
+#MENU-ITEM-SIZE { font-size: 13px; }
+
+.md-heading-text-size,
+#slider .slide-btn a,
+.section-title a,
+#MD-HEADING-TEXT-SIZE { font-size: 24px; }
+
+.sm-heading-text-size,
+.block-title,
+#footer .column-heading,
+#SM-HEADING-TEXT-SIZE {
+  font-size: 18px;
+}
+
+.brand-text-size,
+.navbar-header .navbar-brand,
+#BRAND-TEXT-SIZE {
+  font-size: 42px;
+}
+
+.MD-paragraph-text-size,
+#slider .slide-text h2,
+#MD-PARAGRAPH-TEXT-SIZE {
+  font-size: 21px;
+  line-height: 1.7;
+}
+
+/**********************************
+        FONT STYLE
+**********************************/
+.text-upper,
+#slider h1,
+#links h1,
+nav.navbar .navbar-brand,
+nav.navbar li a,
+#topper li a,
+#slider .slide-btn a,
+.section-title a,
+.block-title,
+.news-month,
+.footer-brand a,
+#TEXT-UPPER {
+    text-transform: uppercase;
+}
+
+.taller-line,
+nav.navbar .navbar-brand,
+#TALLER-LINE {
+    line-height: 1.3;
+}
+
+.xtra-taller-line,
+#slider h1,
+#links li,
+.news-content,
+.news-title,
+#footer p,
+#XTRA-TALLER-LINE { line-height: 1.8; }
+
+/**********************************
+        FONT FAMILY
+**********************************/
+.special-text-font,
+#slider h1,
+#links h1,
+nav.navbar li a,
+nav.navbar .navbar-brand,
+#topper li a,
+#slider .slide-btn a,
+.section-title a,
+.news-month, .news-date,
+.news-title,
+#SPECIAL-TEXT-FONT {
+    font-family: 'Oswald', sans-serif;
+}
+
+.normal-text-font,
+body,
+#NORMAL-TEXT-FONT { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/**********************************
+        MARGINS
+**********************************/
+.sm-margin-top,
+#SM-MARGIN-TOP { margin-top: 20px; }
+.md-margin-top,
+.block-content,
+#footer,
+#MD-MARGIN-TOP { margin-top: 40px; }
+.lg-margin-top,
+#LG-MARGIN-TOP { margin-top: 60px; }
+.sm-margin-right,
+.service-block,
+.news-block,
+#SM-MARGIN-RIGHT { margin-right: 20px; }
+.md-margin-right,
+#MD-MARGIN-RIGHT { margin-right: 40px; }
+.lg-margin-right,
+#LG-MARGIN-RIGHT { margin-right: 60px; }
+.sm-margin-bottom,
+#SM-MARGIN-BOTTOM { margin-bottom: 20px; }
+.md-margin-bottom,
+.service-block,
+#MD-MARGIN-BOTTOM { margin-bottom: 40px; }
+.lg-margin-bottom,
+.section-title,
+#LG-MARGIN-BOTTOM { margin-bottom: 60px; }
+.sm-margin-left,
+.service-block,
+.news-block,
+#SM-MARGIN-LEFT { margin-left: 20px; }
+.md-margin-left,
+#MD-MARGIN-LEFT { margin-left: 40px; }
+.lg-margin-left,
+#LG-MARGIN-LEFT { margin-left: 60px; }
+
+/**********************************
+        PADDING
+**********************************/
+
+.xs-padding-top,
+.news-block, .news-footer,
+#XS-PADDING-TOP { padding-top: 10px; }
+.sm-padding-top,
+#slider .slide-text,
+.service-block,
+.footer-brand a,
+#footer, #copyright,
+#SM-PADDING-TOP { padding-top: 20px; }
+.md-padding-top,
+#MD-PADDING-TOP { padding-top: 40px; }
+.lg-padding-top,
+#LG-PADDING-TOP { padding-top: 60px; }
+.xlg-padding-top,
+#XLG-PADDING-TOP { padding-top: 80px; }
+
+.xs-padding-right,
+.news-block,
+#XS-PADDING-RIGHT { padding-right: 10px; }
+.sm-padding-right,
+#slider .slide-text,
+.section-title a,
+.footer-brand a,
+#footer, #copyright,
+#SM-PADDING-RIGHT { padding-right: 20px; }
+.md-padding-right,
+.service-block,
+.news-content,
+#MD-PADDING-RIGHT { padding-right: 40px; }
+.lg-padding-right,
+#LG-PADDING-RIGHT { padding-right: 60px; }
+.xlg-padding-right,
+#XLG-PADDING-RIGHT { padding-right: 80px; }
+
+.xs-padding-bottom,
+.news-block, .news-footer,
+#XS-PADDING-BOTTOM { padding-bottom: 10px; }
+.sm-padding-bottom,
+#slider .slide-text,
+.service-block,
+.footer-brand a,
+#footer, #copyright,
+#SM-PADDING-BOTTOM { padding-bottom: 20px; }
+.md-padding-bottom,
+.footer-brand,
+#MD-PADDING-BOTTOM { padding-bottom: 40px; }
+.lg-padding-bottom,
+#LG-PADDING-BOTTOM { padding-bottom: 60px; }
+.xlg-padding-bottom,
+#XLG-PADDING-BOTTOM { padding-bottom: 80px; }
+
+.xs-padding-left,
+.news-block, .news-footer a,
+#XS-PADDING-LEFT { padding-left: 10px; }
+.sm-padding-left,
+#slider .slide-text,
+.section-title a,
+.footer-brand a,
+#footer, #copyright,
+#SM-PADDING-LEFT { padding-left: 20px; }
+.md-padding-left,
+.service-block,
+#MD-PADDING-LEFT { padding-left: 40px; }
+.lg-padding-left,
+#LG-PADDING-LEFT { padding-left: 60px; }
+.xlg-padding-left,
+.news-title, .news-content,
+#XLG-PADDING-LEFT { padding-left: 80px; }
+
+/**********************************
+        BORDERS
+**********************************/
+.right-border-with-margin-and-padding,
+.navbar-header .navbar-brand,
+#RIGHT-BORDER-WITH-MARGIN-AND-PADDING {
+  border-right: solid 1px #c2c2c2;
+  margin-right: 20px;
+  padding-right: 30px;
+}
+
+.slash-border-for-list-item,
+#topper .navbar-right li a.social-icon:after,
+.news-footer a:after,
+#SLASH-BORDER-FOR-LIST-ITEM {
+  content: '/';
+  padding-left: 20px;
+}
+
+  .no-slash-for-last-item,
+  #topper .navbar-right li:last-child .social-icon:after,
+  .news-footer a:last-child:after,
+  #NO-SLASH-FOR-LAST-ITEM {
+    content: '';
+    padding-left: 0;
+  }
+
+.green-border-color,
+.section-title a,
+#GREEN-BORDER-COLOR { border-color:  #009688; }
+
+.dark-green-border-color,
+.service-block:hover,
+#DARK-GREEN-BORDER-COLOR { border-color:  #00796b; }
+
+.light-grey-border-color,
+.news-block,
+.service-block,
+.news-footer,
+#LIGHT-GREY-BORDER-COLOR { border-color: #d6d6d6; }
+
+.grey-border-color,
+.footer-brand a,
+#GREY-BORDER-COLOR { border-color: #ccc; }
+
+.sm-border-width,
+.news-block,
+.news-footer,
+#SM-BORDER-WIDTH { border-width: 1px; }
+
+.md-border-width,
+.service-block,
+.footer-brand a,
+#MD-BORDER-WIDTH { border-width: 3px; }
+
+.lg-border-width,
+.section-title a,
+.LG-BORDER-WIDTH { border-width: 5px; }
+
+.border-solid,
+.service-block,
+.news-block,
+.footer-brand a,
+#BORDER-SOLID {
+  border-style: solid;
+}
+
+.x-border-solid,
+.section-title a,
+#X-BORDER-SOLID {
+  border-right-style: solid;
+  border-left-style: solid;
+}
+.y-border-solid,
+.news-footer,
+#Y-BORDER-SOLID {
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+/**********************************
+        HEIGHTS
+**********************************/
+.taller-navbar,
+nav.navbar,
+.navbar-header .navbar-brand,
+#TALLER-NAVBAR {
+  height: 100px;
+}
+  .navbar-header a.navbar-brand {
+    line-height: 60px;
+  }
+  nav.navbar li a {
+    line-height: 60px;
+  }
+
+.slider-height,
+#slider,
+#SLIDER-HEIGHT {
+  height: 500px;
+}
+
+/**********************************
+        WIDTHS
+**********************************/
+.slide-narrower-paragraph,
+#slider .slide-text h2,
+#SLIDE-NARROWER-PARAGRAPH {
+  width: 35%;
+  margin: auto;
+}
+
+  /* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    #slider .slide-text h2 {
+      width: 50%;
+    }
+  }
+
+  /* Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    #slider .slide-text h2 {
+      width: 35%;
+    }
+  }
+
+.full-width-auto-height,
+.news-image img,
+#FULL-WIDTH-AUTO-HEIGHT {
+  width: 100%;
+  height: auto;
+}
+
+/**********************************
+        POSITIONING
+**********************************/
+.position-relative,
+#slider,
+.block-title,
+.news-block,
+#footer .column-heading,
+#POSITION-RELATIVE { position: relative; }
+
+.position-absolute,
+.slide-right, .slide-left,
+.news-date, .news-month,
+#POSITION-ABSOLUTE { position: absolute; }
+
+.position-bottom-right,
+.slide-right,
+#POSITION-BOTTOM-RIGHT {
+  bottom: 0;
+  right: 0;
+}
+
+.position-top-left,
+.slide-left,
+#POSITION-TOP-LEFT {
+  top: 0;
+  left: 0;
+}
+
+/**********************************
+        VISIBILITY
+**********************************/
+.hide-overflow,
+.news-image,
+#HIDE-OVERFLOW {
+  overflow: hidden;
+}
+
+/**********************************
+        RESET BOOTSTRAP
+**********************************/
+.navbar-border-reset,
+/*nav.navbar,*/ /* reseting the border radius of the navbar positions all the text inside the navbar at the center */
+#NAVBAR-BORDER-RESET {
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+}
+
+.shorter-navbar,
+#topper,
+#SHORTER-NAVBAR {
+    height: 30px;
+}
+    .shorter-navbar-link-padding,
+    #topper li a,
+    #SHORTER-NAVBAR-LINK-PADDING {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .smaller-navbar-links,
+    #topper li a,
+    #SMALLER-NAVBAR-LINKS {
+        font-size: 10px;
+    }
+
+.navbar-links-no-hover-background,
+footer li a,
+#NAVBAR-LINKS-NO-HOVER-BACKGROUND {
+    background: none !important;
+}
+
+.shift-top-brand,
+nav.navbar .navbar-brand,
+#SHIFT-TOP-BRAND {
+    position: relative;
+    top: -1px;
+}
+
+.navbar-no-bottom-margin,
+.navbar,
+#NAVBAR-NO-BOTTOM-MARGIN {
+    margin-bottom: 0;
+}
+
+.remove-link-default,
+.section-title a,
+.news-footer a,
+#footer a,
+#REMOVE-LINK-DEFAULT {
+  color: #666;
+  text-decoration: none;
+}
+
+.no-border,
+.btn-success,
+#footer .form-control,
+#NO-BORDER { border: none; }
+
+.no-box-shadow,
+#footer .form-control,
+#NO-BOX-SHADOW {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/**********************************
+        PAGE SPECIFIC
+**********************************/
+.slider-btn-primary,
+#slider .slide-btn a,
+#SLIDER-BTN-PRIMARY {
+  background: #009688;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  margin-top: 20px;
+}
+
+.slider-padding-top-md,
+#slider,
+#SLIDER-PADDING-TOP-MD {
+  padding-top: 10%;
+}
+
+/* The main element has to be positioned relatively before this can work*/
+.short-underline,
+.block-title:after,
+#footer .column-heading:after,
+#SHORT-UNDELRINE {
+  content: ' ';
+  display: block;
+  width: 50px;
+  height: 3px;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  margin-left: -25px;
+}
+
+.news-date,
+.news-month {
+  width: 45px;
+  left: 10px;
+}
+
+.news-date {
+  top: 180px;
+  height: 50px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.news-month {
+  height: 25px;
+  top: 230px;
+  line-height: 25px;
+}
+
+/**********************************
+        EXPERIMENTAL
+**********************************/
