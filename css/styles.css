@@ -57,6 +57,7 @@ nav.navbar .navbar-nav li a:focus,
 
 .dark-green,
 .block-title:after,
+#footer .column-heading:after,
 #DARK-GREEN { background: #00796b; }
 
 .light-grey,
@@ -66,6 +67,7 @@ nav.navbar,
 #LIGHT-GREY { background: #efefef; }
 
 .grey,
+nav.navbar .navbar-nav > li a:hover,
 #GREY { background: #eaeaea; }
 
 .dark-grey,
@@ -205,6 +207,7 @@ body,
 #SM-MARGIN-BOTTOM { margin-bottom: 20px; }
 .md-margin-bottom,
 .service-block,
+#footer .column-heading,
 #MD-MARGIN-BOTTOM { margin-bottom: 40px; }
 .lg-margin-bottom,
 .section-title,
@@ -221,7 +224,6 @@ body,
 /**********************************
         PADDING
 **********************************/
-
 .xs-padding-top,
 .news-block, .news-footer,
 #XS-PADDING-TOP { padding-top: 10px; }
@@ -290,6 +292,13 @@ body,
 .xlg-padding-left,
 .news-title, .news-content,
 #XLG-PADDING-LEFT { padding-left: 80px; }
+
+.no-y-padding,
+nav.navbar li a, /* It's line height has been equaled to the height of the navbar below */
+#NO-Y-PADDING {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 /**********************************
         BORDERS
@@ -384,7 +393,8 @@ nav.navbar,
     line-height: 60px;
   }
   nav.navbar li a {
-    line-height: 60px;
+    /* Its vertical padding has been reset above */
+    line-height: 100px;
   }
 
 .slider-height,
@@ -460,6 +470,16 @@ nav.navbar,
 .news-image,
 #HIDE-OVERFLOW {
   overflow: hidden;
+}
+
+/**********************************
+        ALIGNMENTS
+**********************************/
+.push-to-center,
+.block-title:after,
+#PUSH-TO-CENTER {
+  left: 50%;
+  margin-left: -25px;
 }
 
 /**********************************
@@ -562,8 +582,6 @@ nav.navbar .navbar-brand,
   height: 3px;
   position: absolute;
   bottom: -10px;
-  left: 50%;
-  margin-left: -25px;
 }
 
 .news-date,
